@@ -1,0 +1,16 @@
+# Secrets
+.env
+*.env
+credentials.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
