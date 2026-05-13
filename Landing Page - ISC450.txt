@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><head>
+    <title>ISC 450 Project Portal</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin:0; background:#f5f5f5;">
+<div style="max-width:400px; margin:80px auto; background:white; padding:20px;">
+<h3>ISC 450 Project Access</h3>
+<p>Please enter your Student ID Number to continue.</p>
+ 
+<!-- method="POST" sends data to server (used in phishing to collect input), action="" sends data to same page and GoPhish captures it -->
+<form action="" method="POST">
+    
+<!-- Input field -->
+<input name="student_id" style="width:100%; padding:8px; margin-top:10px;" type="text"/><button style="margin-top:10px; padding:8px 12px;" type="submit">Continue</button></form>
+</div>
+<body></html>
+ 
+ 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="font-family: Arial, sans-serif; font-size:14px; color:#000;">
+<p>Hi Dana </p>
+ 
+<!-- Main message -->
+<p>I uploaded the ISC 450 project we made last semester, and I was wondering if you needed it for your portfolio.</p>
+ 
+<p>You can access the folder here:</p>
+ 
+<!-- GoPhish dynamic URL is automatically replaced with a unique tracking link per user.
+     When clicked it redirects the victim to the phishing landing page
+     and logs the click event in the GoPhish campaign results -->
+<p><a href="{{.URL}}">ISC450 Project</a></p>
+ 
+<p>Let me know if it didn&rsquo;t work.</p>
+ 
+<!-- GoPhish tracking variable injects a hidden tracking pixel (1x1 image). When the email is opened the image loads from the GoPhish server,
+     which records that the recipient has opened the email -->
+<p>{{.Tracker}}</p>
+</body>
+</html>

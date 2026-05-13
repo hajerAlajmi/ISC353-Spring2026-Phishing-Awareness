@@ -1,0 +1,14 @@
+# Download GoPhish from GitHub
+wget https://github.com/gophish/gophish/releases/latest/download/gophish-v0.12.1-linux-64bit.zip
+
+# Unzip the downloaded file
+unzip gophish-v0.12.1-linux-64bit.zip~
+
+# Give permission to run the file
+chmod +x gophish
+
+# Go into the gophish folder
+cd gophish
+
+# Run GoPhish with admin permission
+sudo ./gophish

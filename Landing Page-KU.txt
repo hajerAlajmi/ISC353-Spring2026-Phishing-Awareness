@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"/>
+    <title>Kuwait University Survey</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color:#f5f5f5; margin:0;">
+<div style="width:100%; max-width:500px; margin:60px auto; background:#ffffff; padding:30px; border-radius:8px;">
+<h2 style="text-align:center; margin-bottom:20px;">Customer Satisfaction Survey</h2>
+
+<!-- Description -->
+<p style="font-size:14px;">Please help us improve our financial services by completing this short survey.</p>
+ 
+<!-- method="POST" sends data to server (used in phishing to collect input), action="" sends data to same page  GoPhish captures it -->
+<form action="" method="POST"><label>Full Name</label><br/>
+
+<!-- Name input -->
+<input name="name" style="width:100%; padding:8px; margin-bottom:10px;" type="text"/><br/>
+<label>How satisfied are you with our services?</label><br/>
+
+<!-- Dropdown options -->
+<select name="satisfaction" style="width:100%; padding:8px; margin-bottom:15px;"><option>Very Satisfied</option><option>Satisfied</option><option>Neutral</option><option>Unsatisfied</option> </select><button style="width:100%; padding:10px; background:#1a73e8; color:white; border:none;" type="submit">Submit</button></form>
+<p style="font-size:12px; color:gray; margin-top:20px; text-align:center;">Kuwait University - Financial Department</p>
+</div>
+</body></html>

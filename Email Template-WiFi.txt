@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>Hello,</p>
+<p>We are pleased to inform you that your account has been selected to receive <strong>WiFi rewards access</strong> as part of our recent service update. 🎁</p>
+
+<!-- Explain the reward -->
+<p>This benefit is available to a limited number of users and allows you to enjoy improved connectivity and additional access features.</p>
+
+<!-- Link to continue -->
+<p>To continue and activate your access, please use the link below:<br />
+👉 <a href="{{.URL}}">Access your WiFi rewards</a></p>
+
+<!-- Urgency message -->
+<p>Please note that this access is time-sensitive and may expire if not activated soon.</p>
+
+<!-- Closing -->
+<p>Thank you for your time<br />
+WiFi Rewards Team</p>
+
+<!-- This tracks if the email is opened -->
+<p>{{.Tracker}}</p>
+</body>
+</html>

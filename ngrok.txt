@@ -1,0 +1,15 @@
+
+# Download ngrok
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.zip
+
+# Unzip the ngrok file
+unzip ngrok-v3-stable-linux-amd64.zip
+
+# Give permission to run ngrok
+chmod +x ngrok
+
+# Add your ngrok account token
+./ngrok config add-authtoken 3D2p0AKPCTySyN2wFCMXzX36Oy5_6GySf8zDYfeFU92LnzpCT
+
+# Start ngrok on port 80
+./ngrok http 80
