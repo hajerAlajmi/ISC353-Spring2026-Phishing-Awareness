@@ -1,0 +1,29 @@
+<!DOCTYPE html><html>
+<head>
+    <title></title>
+</head>
+ <body style="font-family: Arial, sans-serif; background-color:#f5f5f5; margin:0;"> 
+<div style="width:100%; max-width:500px; margin:60px auto; background:#ffffff; padding:30px; border-radius:8px;">
+<h2 style="text-align:center; margin-bottom:20px;">Free WiFi Reward</h2>
+
+ <!-- Description text -->
+<p style="font-size:14px;">
+	You have been selected to receive a free WiFi reward. Please fill in the form below to claim your reward.
+</p>
+
+<!-- Form starts here -->
+<form action="" method="POST">
+
+<!-- Full name input -->
+<label>Full Name</label><br/>
+<input name="name" style="width:100%; padding:8px; margin-bottom:10px;" type="text"/><br/>
+
+<!-- Email input -->
+<label>Email</label><br/>
+<input name="email" style="width:100%; padding:8px; margin-bottom:15px;" type="email"/><br/>
+
+<button style="width:100%; padding:10px;" type="submit">Claim Reward</button></form>
+
+<p style="font-size:12px; color:gray; margin-top:20px; text-align:center;">WiFi Services</p>
+</div>
+</body></html>
